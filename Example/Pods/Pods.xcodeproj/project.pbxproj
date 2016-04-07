@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A079839E4E179A1303B4F178AB107B /* Pods-myCoco_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C25F0112D53ECBED38A376481B04C67 /* Pods-myCoco_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125E9AB8D9F3FA41A578627E57C1B37A /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AD796E0811AED05EEA7E020A7947B0 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13DD7BA7430B4CFB1DD7130040B367F4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8924BAD0A0B429DAFC00F14E7CA010 /* MobileCoreServices.framework */; };
+		2696638529960E774A76D99A13D595BB /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4396A99C0AAE10F414B527B80FC1DACB /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C18F29E03CADC58B278518F22B7B517 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB43C9933A42A5FDCF34F8F9CAB2F3A9 /* QuartzCore.framework */; };
+		3C85E62EBD0D660C3DB557FABF9B8E10 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575814874877CB96D9A13C7BBD6AB1A /* UIImage+Diff.m */; };
+		3E74BD5D03F8B8D7E46CBF8C7597097B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F67CBF269504A17437DECCEDD2B828 /* Foundation.framework */; };
+		3FF33EF2BEA328811C6BC7C97A9776A3 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 721CC07FAB91C1143E71B21BB3E20BC6 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A7776643C46D0DA461622C980E6E25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730E051576FB3EDBF18FBFC72F27BE54 /* CoreGraphics.framework */; };
+		47F4252DEFDE1FD558C94B874F716335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F67CBF269504A17437DECCEDD2B828 /* Foundation.framework */; };
+		4A12FBFFB4305CC50CE4B10989E754C3 /* Pods-myCoco_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0B86C9AE4FE65FDDDFC9BE487E1B8C /* Pods-myCoco_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500CFFB619BA25FB57B6AF48F8CCD8F3 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88C74D733720F86716DAF1B048177E /* UIImage+Compare.m */; };
+		58CA52BCED9F6E2A9CCE4DF19E873D3E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A5D64A8DED45B714F8DF2F0AFAC719 /* FBSnapshotTestController.m */; };
+		59CB20D6FD22B22D2AEC1F4C31881237 /* BZHttphelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF3AE115AB57995C15A27A6CEEE800E /* BZHttphelper.m */; };
+		5B60E1093394A43072352CDC0A07F5AF /* BZHttphelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5276A7176B711541C1A51A268417EAD6 /* BZHttphelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A06FA2D54441EEBBBEF62AE21E3F297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F67CBF269504A17437DECCEDD2B828 /* Foundation.framework */; };
+		80BE02D67B908D07790A715CC21F58F0 /* Pods-myCoco_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7737EC329FB570E37B89E3803F305C /* Pods-myCoco_Tests-dummy.m */; };
+		8B711EE621FB278F3AB991701E0E1A9A /* myCoco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E397CABF3D063A374C2E9922E901D7D /* myCoco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DECB970785FCBAB4A6315DAA0DB0DF2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9EBDCF7067F613B689BB4D2D7F07D /* SwiftSupport.swift */; };
+		90B7E2F40E17730F3E28449559B458E0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D62B8F28F934EDA4C96FE5B166C7AF0E /* UIImage+Snapshot.m */; };
+		94FDCD720E559DF4C535B3A8E93080C3 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE969126FF0EDA7A0F3522919CB4C5 /* FBSnapshotTestCasePlatform.m */; };
+		A11C61CDAB611A3C247364356BF07F98 /* BZLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07029E753FE4F7C3431EF1A2C2E9B3DA /* BZLib.bundle */; };
+		A38506CF4700DA06E89C871D8388D83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D128556F3132762B435341952CA52A /* UIKit.framework */; };
+		A5841BFBC62C34F69F420EF959EB2B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F67CBF269504A17437DECCEDD2B828 /* Foundation.framework */; };
+		A7C8829AAA3676F9279DB33B193F9979 /* myCoco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C055177597A9E3FD1EF764DAD2B3D7 /* myCoco-dummy.m */; };
+		A7F9AAC65FC2D87C34EA9D6A5ACB4401 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B58D5BA3EB09C98A4C815311C792DC /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEBA7273A59F2B043A31661C1CB1604C /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 384A1B103C9D183D6A1C08DD450C61CA /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD3C7ABB0598A03B729F141633113043 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE25CB0990A912973D24121C151E6A /* FBSnapshotTestCase.m */; };
+		BD94CD44919D03384B05A6BA60460464 /* Pods-myCoco_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 301838FA294930DFBAD89BDDFFFBA599 /* Pods-myCoco_Example-dummy.m */; };
+		C5C081A0337FC266B8C37E0D858AB743 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD1D9F8DF72819A003CDE2446E3E1E7E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F3A48ABA90407F6ADC60F69986C21D /* CFNetwork.framework */; };
+		E44BA8216CB73A40822467A02D7D847B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 758DA1CBC128A58D65023AE2318D1257 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E529CF6315E6EB33FBA413EDC4BD9CF7 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE673C8BA909DDDDB8BFAE9848BFC0 /* FBSnapshotTestCase-dummy.m */; };
+		E5EFBFEA24204492935B2FB2BA7D21B6 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9224AD343A9456F0D12695DF9141B2 /* UIApplication+StrictKeyWindow.m */; };
+		FDCF5EFC95C413E5DCF5133D3DFC4170 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C735A360E0DDB78F59F8A14CB03770 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3185EA9BAC48BE0DB6CE338B3E61EECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307A9FBA4B200AAA6D45718D31C2C62B;
+			remoteInfo = myCoco;
+		};
+		4BDE3D366CB1F0EE5A342DA42001E383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825F9FD730C9A33704751A0E93A31BB8;
+			remoteInfo = "myCoco-BZLib";
+		};
+		4EC63877E00C4A0255B072BBD38216E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772A3FF3D8A39494464ADDC12B7096CF;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		CC825A54A6B56D4B9600D3345B51E9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307A9FBA4B200AAA6D45718D31C2C62B;
+			remoteInfo = myCoco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005AE586025BBBF5C35292B040596AD8 /* Pods-myCoco_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myCoco_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07029E753FE4F7C3431EF1A2C2E9B3DA /* BZLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BZLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BE39E8A6BF986160FAD67AC4D890E9 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		09C055177597A9E3FD1EF764DAD2B3D7 /* myCoco-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "myCoco-dummy.m"; sourceTree = "<group>"; };
+		0A4C0F64AD3D2EF17F9447806B7DB433 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		0CF3AE115AB57995C15A27A6CEEE800E /* BZHttphelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BZHttphelper.m; sourceTree = "<group>"; };
+		12591BC2BDD4CBAAA7457CE8746BCAD4 /* Pods-myCoco_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myCoco_Example-resources.sh"; sourceTree = "<group>"; };
+		175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		17BE969126FF0EDA7A0F3522919CB4C5 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		1D0B86C9AE4FE65FDDDFC9BE487E1B8C /* Pods-myCoco_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myCoco_Example-umbrella.h"; sourceTree = "<group>"; };
+		2110FD3D5619D750BF4B2BCF7887317E /* Pods-myCoco_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myCoco_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23A5D64A8DED45B714F8DF2F0AFAC719 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		26C735A360E0DDB78F59F8A14CB03770 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C25F0112D53ECBED38A376481B04C67 /* Pods-myCoco_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myCoco_Tests-umbrella.h"; sourceTree = "<group>"; };
+		301838FA294930DFBAD89BDDFFFBA599 /* Pods-myCoco_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myCoco_Example-dummy.m"; sourceTree = "<group>"; };
+		36F2DF4550E4D18C84BAD67CC9FCA14A /* Pods-myCoco_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myCoco_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		37F67CBF269504A17437DECCEDD2B828 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		384A1B103C9D183D6A1C08DD450C61CA /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		388673413D691A90B8C3BAAB33F3F2EA /* Pods-myCoco_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-myCoco_Example.modulemap"; sourceTree = "<group>"; };
+		40EC4D01BEE40A3F824448B4EA418DE3 /* Pods_myCoco_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myCoco_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		415F079137BA6EC360F1EF9BFE50660A /* Pods-myCoco_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myCoco_Tests-resources.sh"; sourceTree = "<group>"; };
+		4396A99C0AAE10F414B527B80FC1DACB /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		46F3A48ABA90407F6ADC60F69986C21D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		49FE25CB0990A912973D24121C151E6A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		4D37254D8A534F22ACA8F343C8BE0854 /* Pods-myCoco_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myCoco_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F88C74D733720F86716DAF1B048177E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		5276A7176B711541C1A51A268417EAD6 /* BZHttphelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BZHttphelper.h; sourceTree = "<group>"; };
+		55593135B31C6D72477C40C1F9ADCBE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561B00C22FB1E3E7D31E7BEB2FD4F332 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE3D3B4E0437D808168023D689FD2FE /* Pods_myCoco_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myCoco_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8924BAD0A0B429DAFC00F14E7CA010 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		6DD9EBDCF7067F613B689BB4D2D7F07D /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		6E7737EC329FB570E37B89E3803F305C /* Pods-myCoco_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myCoco_Tests-dummy.m"; sourceTree = "<group>"; };
+		721CC07FAB91C1143E71B21BB3E20BC6 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		730E051576FB3EDBF18FBFC72F27BE54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		752FA28BA3998A093A3B18932874B218 /* myCoco-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "myCoco-prefix.pch"; sourceTree = "<group>"; };
+		758DA1CBC128A58D65023AE2318D1257 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		75B20E27831D8E42BA78530F7C95BE75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7663003CB90313D725B6144B7132FAC3 /* myCoco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = myCoco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A275579278D6B6B396EEE1D3263EB45 /* myCoco.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = myCoco.modulemap; sourceTree = "<group>"; };
+		8575814874877CB96D9A13C7BBD6AB1A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		8CDE673C8BA909DDDDB8BFAE9848BFC0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		8E397CABF3D063A374C2E9922E901D7D /* myCoco-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "myCoco-umbrella.h"; sourceTree = "<group>"; };
+		A1B3D716FF67F3E97168880CCD324EA2 /* Pods-myCoco_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-myCoco_Tests.modulemap"; sourceTree = "<group>"; };
+		A6D128556F3132762B435341952CA52A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB43C9933A42A5FDCF34F8F9CAB2F3A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B2AD796E0811AED05EEA7E020A7947B0 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C282C5FDE0A6284AA536CF61F73F8041 /* Pods-myCoco_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myCoco_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5007E3162C8B7E77E2ADA0CF1B8017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9224AD343A9456F0D12695DF9141B2 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		D62B8F28F934EDA4C96FE5B166C7AF0E /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D6F1A2C9B09B6D4977CFA15C3B4879AD /* Pods-myCoco_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myCoco_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D822DBAD9DF09850896285B8E3A7A5D1 /* Pods-myCoco_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myCoco_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA28D8448983DDFB01295B1A0BFB6E33 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25DF0E3013D15E06F5E0CE782762B26 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		E29690FFC3C10DA7A5795CE1FA990200 /* Pods-myCoco_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myCoco_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7DC3F7FD70EA8BC4626A11333352B7 /* myCoco.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = myCoco.xcconfig; sourceTree = "<group>"; };
+		EFA8284AE9A073926AAAF1DC6C38EE63 /* Pods-myCoco_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myCoco_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1015E284DBE59055A533BB4352A6FDF /* Pods-myCoco_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myCoco_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2B58D5BA3EB09C98A4C815311C792DC /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348965C17AB71570477C9F47F95328DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F4252DEFDE1FD558C94B874F716335 /* Foundation.framework in Frameworks */,
+				3C18F29E03CADC58B278518F22B7B517 /* QuartzCore.framework in Frameworks */,
+				A38506CF4700DA06E89C871D8388D83E /* UIKit.framework in Frameworks */,
+				FDCF5EFC95C413E5DCF5133D3DFC4170 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6749095917858254086D952482D690F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74BD5D03F8B8D7E46CBF8C7597097B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E45717E210E0262BB9F46366C5684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B733A7DE2FE4D171CE2E7ED81575C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A06FA2D54441EEBBBEF62AE21E3F297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCC5E476BC4F4B13971AA0F16DC0F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1D9F8DF72819A003CDE2446E3E1E7E /* CFNetwork.framework in Frameworks */,
+				44A7776643C46D0DA461622C980E6E25 /* CoreGraphics.framework in Frameworks */,
+				A5841BFBC62C34F69F420EF959EB2B32 /* Foundation.framework in Frameworks */,
+				13DD7BA7430B4CFB1DD7130040B367F4 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE4F1F7D38A5C2BE0364EDD4571C4D2 /* Pods-myCoco_Example */ = {
+			isa = PBXGroup;
+			children = (
+				55593135B31C6D72477C40C1F9ADCBE1 /* Info.plist */,
+				388673413D691A90B8C3BAAB33F3F2EA /* Pods-myCoco_Example.modulemap */,
+				4D37254D8A534F22ACA8F343C8BE0854 /* Pods-myCoco_Example-acknowledgements.markdown */,
+				D822DBAD9DF09850896285B8E3A7A5D1 /* Pods-myCoco_Example-acknowledgements.plist */,
+				301838FA294930DFBAD89BDDFFFBA599 /* Pods-myCoco_Example-dummy.m */,
+				D6F1A2C9B09B6D4977CFA15C3B4879AD /* Pods-myCoco_Example-frameworks.sh */,
+				12591BC2BDD4CBAAA7457CE8746BCAD4 /* Pods-myCoco_Example-resources.sh */,
+				1D0B86C9AE4FE65FDDDFC9BE487E1B8C /* Pods-myCoco_Example-umbrella.h */,
+				C282C5FDE0A6284AA536CF61F73F8041 /* Pods-myCoco_Example.debug.xcconfig */,
+				F1015E284DBE59055A533BB4352A6FDF /* Pods-myCoco_Example.release.xcconfig */,
+			);
+			name = "Pods-myCoco_Example";
+			path = "Target Support Files/Pods-myCoco_Example";
+			sourceTree = "<group>";
+		};
+		364F0B481A304B4EBAA1DCE0321B8925 /* Pods-myCoco_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5007E3162C8B7E77E2ADA0CF1B8017 /* Info.plist */,
+				A1B3D716FF67F3E97168880CCD324EA2 /* Pods-myCoco_Tests.modulemap */,
+				005AE586025BBBF5C35292B040596AD8 /* Pods-myCoco_Tests-acknowledgements.markdown */,
+				EFA8284AE9A073926AAAF1DC6C38EE63 /* Pods-myCoco_Tests-acknowledgements.plist */,
+				6E7737EC329FB570E37B89E3803F305C /* Pods-myCoco_Tests-dummy.m */,
+				36F2DF4550E4D18C84BAD67CC9FCA14A /* Pods-myCoco_Tests-frameworks.sh */,
+				415F079137BA6EC360F1EF9BFE50660A /* Pods-myCoco_Tests-resources.sh */,
+				2C25F0112D53ECBED38A376481B04C67 /* Pods-myCoco_Tests-umbrella.h */,
+				E29690FFC3C10DA7A5795CE1FA990200 /* Pods-myCoco_Tests.debug.xcconfig */,
+				2110FD3D5619D750BF4B2BCF7887317E /* Pods-myCoco_Tests.release.xcconfig */,
+			);
+			name = "Pods-myCoco_Tests";
+			path = "Target Support Files/Pods-myCoco_Tests";
+			sourceTree = "<group>";
+		};
+		3D8F39F7EEFCFF55121182899BAFC66D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5276A7176B711541C1A51A268417EAD6 /* BZHttphelper.h */,
+				0CF3AE115AB57995C15A27A6CEEE800E /* BZHttphelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		43C9B580A44846803DD5F7CB763B90B2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				46F3A48ABA90407F6ADC60F69986C21D /* CFNetwork.framework */,
+				730E051576FB3EDBF18FBFC72F27BE54 /* CoreGraphics.framework */,
+				37F67CBF269504A17437DECCEDD2B828 /* Foundation.framework */,
+				5D8924BAD0A0B429DAFC00F14E7CA010 /* MobileCoreServices.framework */,
+				AB43C9933A42A5FDCF34F8F9CAB2F3A9 /* QuartzCore.framework */,
+				A6D128556F3132762B435341952CA52A /* UIKit.framework */,
+				26C735A360E0DDB78F59F8A14CB03770 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		585EF43F36839C81D098BE52E23215A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07029E753FE4F7C3431EF1A2C2E9B3DA /* BZLib.bundle */,
+				DA28D8448983DDFB01295B1A0BFB6E33 /* FBSnapshotTestCase.framework */,
+				7663003CB90313D725B6144B7132FAC3 /* myCoco.framework */,
+				5CE3D3B4E0437D808168023D689FD2FE /* Pods_myCoco_Example.framework */,
+				40EC4D01BEE40A3F824448B4EA418DE3 /* Pods_myCoco_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58A1305D922FF21E64916EBF07C5A689 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				6DD9EBDCF7067F613B689BB4D2D7F07D /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		5B4B624BF56D887987F580057952BC59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B20E27831D8E42BA78530F7C95BE75 /* Info.plist */,
+				7A275579278D6B6B396EEE1D3263EB45 /* myCoco.modulemap */,
+				EB7DC3F7FD70EA8BC4626A11333352B7 /* myCoco.xcconfig */,
+				09C055177597A9E3FD1EF764DAD2B3D7 /* myCoco-dummy.m */,
+				752FA28BA3998A093A3B18932874B218 /* myCoco-prefix.pch */,
+				8E397CABF3D063A374C2E9922E901D7D /* myCoco-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/myCoco";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				FB140C9742DEAEDBB9CE24E6969F5B96 /* Development Pods */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				585EF43F36839C81D098BE52E23215A6 /* Products */,
+				AD1A3A97E5E1B80CE6C24DB9B9C23FDE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC9643893E137DE5E32F231B8A240F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F2B58D5BA3EB09C98A4C815311C792DC /* FBSnapshotTestCase.h */,
+				49FE25CB0990A912973D24121C151E6A /* FBSnapshotTestCase.m */,
+				4396A99C0AAE10F414B527B80FC1DACB /* FBSnapshotTestCasePlatform.h */,
+				17BE969126FF0EDA7A0F3522919CB4C5 /* FBSnapshotTestCasePlatform.m */,
+				721CC07FAB91C1143E71B21BB3E20BC6 /* FBSnapshotTestController.h */,
+				23A5D64A8DED45B714F8DF2F0AFAC719 /* FBSnapshotTestController.m */,
+				B2AD796E0811AED05EEA7E020A7947B0 /* UIApplication+StrictKeyWindow.h */,
+				CD9224AD343A9456F0D12695DF9141B2 /* UIApplication+StrictKeyWindow.m */,
+				758DA1CBC128A58D65023AE2318D1257 /* UIImage+Compare.h */,
+				4F88C74D733720F86716DAF1B048177E /* UIImage+Compare.m */,
+				384A1B103C9D183D6A1C08DD450C61CA /* UIImage+Diff.h */,
+				8575814874877CB96D9A13C7BBD6AB1A /* UIImage+Diff.m */,
+				175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */,
+				D62B8F28F934EDA4C96FE5B166C7AF0E /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AD1A3A97E5E1B80CE6C24DB9B9C23FDE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4F1F7D38A5C2BE0364EDD4571C4D2 /* Pods-myCoco_Example */,
+				364F0B481A304B4EBAA1DCE0321B8925 /* Pods-myCoco_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE811307C9296270FFCCAD39BF4D8FD7 /* myCoco */ = {
+			isa = PBXGroup;
+			children = (
+				CFC85C069E74BB8CA4D8D399770B83D0 /* Pod */,
+				5B4B624BF56D887987F580057952BC59 /* Support Files */,
+			);
+			name = myCoco;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CFC85C069E74BB8CA4D8D399770B83D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D8F39F7EEFCFF55121182899BAFC66D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		DD30E5B9BE40CE7D2DEB812E1E170DD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BE39E8A6BF986160FAD67AC4D890E9 /* FBSnapshotTestCase.modulemap */,
+				E25DF0E3013D15E06F5E0CE782762B26 /* FBSnapshotTestCase.xcconfig */,
+				8CDE673C8BA909DDDDB8BFAE9848BFC0 /* FBSnapshotTestCase-dummy.m */,
+				0A4C0F64AD3D2EF17F9447806B7DB433 /* FBSnapshotTestCase-prefix.pch */,
+				561B00C22FB1E3E7D31E7BEB2FD4F332 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		F294CE16D0BB89335EB3400EDAA363F5 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9643893E137DE5E32F231B8A240F1 /* Core */,
+				DD30E5B9BE40CE7D2DEB812E1E170DD7 /* Support Files */,
+				58A1305D922FF21E64916EBF07C5A689 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C9B580A44846803DD5F7CB763B90B2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB140C9742DEAEDBB9CE24E6969F5B96 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE811307C9296270FFCCAD39BF4D8FD7 /* myCoco */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F294CE16D0BB89335EB3400EDAA363F5 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EF4B33C5C9AD4642E9C4AB1DA204623 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F9AAC65FC2D87C34EA9D6A5ACB4401 /* FBSnapshotTestCase.h in Headers */,
+				2696638529960E774A76D99A13D595BB /* FBSnapshotTestCasePlatform.h in Headers */,
+				3FF33EF2BEA328811C6BC7C97A9776A3 /* FBSnapshotTestController.h in Headers */,
+				125E9AB8D9F3FA41A578627E57C1B37A /* UIApplication+StrictKeyWindow.h in Headers */,
+				E44BA8216CB73A40822467A02D7D847B /* UIImage+Compare.h in Headers */,
+				AEBA7273A59F2B043A31661C1CB1604C /* UIImage+Diff.h in Headers */,
+				C5C081A0337FC266B8C37E0D858AB743 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C452242FEBFE92B83A151AF5BD3982A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60E1093394A43072352CDC0A07F5AF /* BZHttphelper.h in Headers */,
+				8B711EE621FB278F3AB991701E0E1A9A /* myCoco-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215CF6EB9695A82340CF79B384D7413 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A079839E4E179A1303B4F178AB107B /* Pods-myCoco_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B29B8E2475F60B7C82A8955462DF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A12FBFFB4305CC50CE4B10989E754C3 /* Pods-myCoco_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F711774CF7845DBF5ECE4DBBC1E38D3 /* Pods-myCoco_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBB4BF28781603A3C6AE7204476B166 /* Build configuration list for PBXNativeTarget "Pods-myCoco_Example" */;
+			buildPhases = (
+				137E78C5F98DB0B2C13876CB51202EC4 /* Sources */,
+				8B733A7DE2FE4D171CE2E7ED81575C27 /* Frameworks */,
+				BF2B29B8E2475F60B7C82A8955462DF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				164D8079B26CD56BA5B77D5C01FE7814 /* PBXTargetDependency */,
+			);
+			name = "Pods-myCoco_Example";
+			productName = "Pods-myCoco_Example";
+			productReference = 5CE3D3B4E0437D808168023D689FD2FE /* Pods_myCoco_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		307A9FBA4B200AAA6D45718D31C2C62B /* myCoco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C15CE5D2CFAEFE94C183D8DB95614E /* Build configuration list for PBXNativeTarget "myCoco" */;
+			buildPhases = (
+				87E1F66D130DE239C083F8042E078603 /* Sources */,
+				9DCC5E476BC4F4B13971AA0F16DC0F13 /* Frameworks */,
+				412F37BD04A5FEFA5FAD9BA20541D264 /* Resources */,
+				1C452242FEBFE92B83A151AF5BD3982A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F53745AB5CF25C0EA3E6BD25FF864A3 /* PBXTargetDependency */,
+			);
+			name = myCoco;
+			productName = myCoco;
+			productReference = 7663003CB90313D725B6144B7132FAC3 /* myCoco.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		694439EBE382873ABF2CC0F0ABE58E2E /* Pods-myCoco_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6FF7D52D093F5C7C7DDC612D407F0E /* Build configuration list for PBXNativeTarget "Pods-myCoco_Tests" */;
+			buildPhases = (
+				D895BAD678F9F43F940D7AC2451D32D8 /* Sources */,
+				6749095917858254086D952482D690F7 /* Frameworks */,
+				2215CF6EB9695A82340CF79B384D7413 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE511E640CCA5E3759C5EFB0251D4489 /* PBXTargetDependency */,
+				CF8DACB16ED8CC4DD8474557A0D70955 /* PBXTargetDependency */,
+			);
+			name = "Pods-myCoco_Tests";
+			productName = "Pods-myCoco_Tests";
+			productReference = 40EC4D01BEE40A3F824448B4EA418DE3 /* Pods_myCoco_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		772A3FF3D8A39494464ADDC12B7096CF /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7FB690F3A08BB1E33865B1F9974E46 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E6598C946CB8C42DFF6CB23648937553 /* Sources */,
+				348965C17AB71570477C9F47F95328DF /* Frameworks */,
+				0EF4B33C5C9AD4642E9C4AB1DA204623 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = DA28D8448983DDFB01295B1A0BFB6E33 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		825F9FD730C9A33704751A0E93A31BB8 /* myCoco-BZLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D2D6184CA4D2209283C813F86CECED /* Build configuration list for PBXNativeTarget "myCoco-BZLib" */;
+			buildPhases = (
+				26A250912339DCEC3EFCCAC6FD66FCD3 /* Sources */,
+				804E45717E210E0262BB9F46366C5684 /* Frameworks */,
+				1D1D6EF336F4FF1C678395BB69270FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myCoco-BZLib";
+			productName = "myCoco-BZLib";
+			productReference = 07029E753FE4F7C3431EF1A2C2E9B3DA /* BZLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 585EF43F36839C81D098BE52E23215A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772A3FF3D8A39494464ADDC12B7096CF /* FBSnapshotTestCase */,
+				307A9FBA4B200AAA6D45718D31C2C62B /* myCoco */,
+				825F9FD730C9A33704751A0E93A31BB8 /* myCoco-BZLib */,
+				0F711774CF7845DBF5ECE4DBBC1E38D3 /* Pods-myCoco_Example */,
+				694439EBE382873ABF2CC0F0ABE58E2E /* Pods-myCoco_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1D6EF336F4FF1C678395BB69270FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412F37BD04A5FEFA5FAD9BA20541D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11C61CDAB611A3C247364356BF07F98 /* BZLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137E78C5F98DB0B2C13876CB51202EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94CD44919D03384B05A6BA60460464 /* Pods-myCoco_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A250912339DCEC3EFCCAC6FD66FCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E1F66D130DE239C083F8042E078603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CB20D6FD22B22D2AEC1F4C31881237 /* BZHttphelper.m in Sources */,
+				A7C8829AAA3676F9279DB33B193F9979 /* myCoco-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D895BAD678F9F43F940D7AC2451D32D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BE02D67B908D07790A715CC21F58F0 /* Pods-myCoco_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6598C946CB8C42DFF6CB23648937553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E529CF6315E6EB33FBA413EDC4BD9CF7 /* FBSnapshotTestCase-dummy.m in Sources */,
+				BD3C7ABB0598A03B729F141633113043 /* FBSnapshotTestCase.m in Sources */,
+				94FDCD720E559DF4C535B3A8E93080C3 /* FBSnapshotTestCasePlatform.m in Sources */,
+				58CA52BCED9F6E2A9CCE4DF19E873D3E /* FBSnapshotTestController.m in Sources */,
+				8DECB970785FCBAB4A6315DAA0DB0DF2 /* SwiftSupport.swift in Sources */,
+				E5EFBFEA24204492935B2FB2BA7D21B6 /* UIApplication+StrictKeyWindow.m in Sources */,
+				500CFFB619BA25FB57B6AF48F8CCD8F3 /* UIImage+Compare.m in Sources */,
+				3C85E62EBD0D660C3DB557FABF9B8E10 /* UIImage+Diff.m in Sources */,
+				90B7E2F40E17730F3E28449559B458E0 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		164D8079B26CD56BA5B77D5C01FE7814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = myCoco;
+			target = 307A9FBA4B200AAA6D45718D31C2C62B /* myCoco */;
+			targetProxy = 3185EA9BAC48BE0DB6CE338B3E61EECA /* PBXContainerItemProxy */;
+		};
+		7F53745AB5CF25C0EA3E6BD25FF864A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "myCoco-BZLib";
+			target = 825F9FD730C9A33704751A0E93A31BB8 /* myCoco-BZLib */;
+			targetProxy = 4BDE3D366CB1F0EE5A342DA42001E383 /* PBXContainerItemProxy */;
+		};
+		CF8DACB16ED8CC4DD8474557A0D70955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = myCoco;
+			target = 307A9FBA4B200AAA6D45718D31C2C62B /* myCoco */;
+			targetProxy = CC825A54A6B56D4B9600D3345B51E9BF /* PBXContainerItemProxy */;
+		};
+		FE511E640CCA5E3759C5EFB0251D4489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 772A3FF3D8A39494464ADDC12B7096CF /* FBSnapshotTestCase */;
+			targetProxy = 4EC63877E00C4A0255B072BBD38216E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		063B7498ACB3CF5C42BA4CA81668CDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25DF0E3013D15E06F5E0CE782762B26 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		11C859DAC2153647F36F9E9E3A65F675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7DC3F7FD70EA8BC4626A11333352B7 /* myCoco.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/myCoco/myCoco-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/myCoco/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/myCoco/myCoco.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = myCoco;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		130BDD7152B8AC859378E99A03F7AEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25DF0E3013D15E06F5E0CE782762B26 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EE631A2CDF363492CDF7AFFD66D57E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7DC3F7FD70EA8BC4626A11333352B7 /* myCoco.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/myCoco/myCoco-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/myCoco/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/myCoco/myCoco.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = myCoco;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44EE6ACDB0CD74CD0E0BA8D05825D226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7DC3F7FD70EA8BC4626A11333352B7 /* myCoco.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BZLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7C4E5B58F11AB9A3A0358405D19AB28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2110FD3D5619D750BF4B2BCF7887317E /* Pods-myCoco_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myCoco_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myCoco_Tests/Pods-myCoco_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_myCoco_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F86D471D5705FEF336039DF5C496EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29690FFC3C10DA7A5795CE1FA990200 /* Pods-myCoco_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myCoco_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myCoco_Tests/Pods-myCoco_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_myCoco_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		993480B86DE8A929953FFE7143AA7027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7DC3F7FD70EA8BC4626A11333352B7 /* myCoco.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BZLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9ADED4E2632BACEEFAC5C0A85C1A485F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1015E284DBE59055A533BB4352A6FDF /* Pods-myCoco_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myCoco_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myCoco_Example/Pods-myCoco_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_myCoco_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D57A580D3522989EC2C7EF39A5D4BA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C282C5FDE0A6284AA536CF61F73F8041 /* Pods-myCoco_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myCoco_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myCoco_Example/Pods-myCoco_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_myCoco_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C15CE5D2CFAEFE94C183D8DB95614E /* Build configuration list for PBXNativeTarget "myCoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C859DAC2153647F36F9E9E3A65F675 /* Debug */,
+				2EE631A2CDF363492CDF7AFFD66D57E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7FB690F3A08BB1E33865B1F9974E46 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063B7498ACB3CF5C42BA4CA81668CDB6 /* Debug */,
+				130BDD7152B8AC859378E99A03F7AEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6FF7D52D093F5C7C7DDC612D407F0E /* Build configuration list for PBXNativeTarget "Pods-myCoco_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F86D471D5705FEF336039DF5C496EEA /* Debug */,
+				7C4E5B58F11AB9A3A0358405D19AB28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBB4BF28781603A3C6AE7204476B166 /* Build configuration list for PBXNativeTarget "Pods-myCoco_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57A580D3522989EC2C7EF39A5D4BA57 /* Debug */,
+				9ADED4E2632BACEEFAC5C0A85C1A485F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D2D6184CA4D2209283C813F86CECED /* Build configuration list for PBXNativeTarget "myCoco-BZLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993480B86DE8A929953FFE7143AA7027 /* Debug */,
+				44EE6ACDB0CD74CD0E0BA8D05825D226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

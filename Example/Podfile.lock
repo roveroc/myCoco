@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - myCoco (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - myCoco (from `../`)
+
+EXTERNAL SOURCES:
+  myCoco:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  myCoco: 04cfc19a9f90b8734d24c885e67e08389b9f5a71
+
+COCOAPODS: 0.39.0
