@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     }
 
     s.public_header_files = 'Pod/Classes/*.h'
-    s.frameworks = 'CFNetwork'
+    s.frameworks = 'CFNetwork','AVKit'
     s.libraries  = 'z.1'
 #s.dependency 'YSASIHTTPRequest', '~> 2.0.1'
 end
